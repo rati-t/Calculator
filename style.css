@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7')
+      format('svg');
+}
+
+h1 {
+  text-align: center;
+  color: #7d6b38;
+  font-size: 50px;
+  font-style: italic;
+}
+
+button {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: gray;
+  color: black;
+  width: 100px;
+  height: 80px;
+  font-size: 50px;
+  opacity: 1.0;
+  margin: 1px;
+}
+#zero {
+  width: 202px;
+}
+
+#wrapper {
+  border: solid;
+  background-color: black;
+  width: 410px;
+  height: 470px;
+  border-color: gray;
+  margin: auto;
+  padding: 2px;
+}
+
+#container {
+  text-align: center;
+}
+#clear {
+  width: 304px;
+}
+button:hover {
+  opacity: 0.9;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+
+#display {
+  
+  height: 60px;
+  text-align: right;
+  color: white;
+  font-size: 60px;
+  font-family: digital;
+  padding-right: 2px;
+}
